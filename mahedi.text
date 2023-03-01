@@ -1,0 +1,34 @@
+
+//     let displayphones = (phones) => {
+//     let phonescontainer = document.getElementById("container")
+//     phonescontainer.textContent = ""
+//     phones.forEach((phone) => {
+      
+//       const phonediv = document.createElement("div")
+//       phonediv.classList.add("col")
+//       phonediv.innerHTML = `
+//           <div class="card p-4">
+//           <img src="${phone.image}" class="card-img-top" alt="..." />
+//           <div class="card-body">
+//             <h5 class="card-title">${phone.phone_name}</h5>
+//             <p class="card-text">
+//               This is a longer card with supporting text below as a natural
+//               lead-in to additional content. This content is a little bit
+//               longer.
+//             </p>
+//           </div>
+          
+//           `;
+//       phonescontainer.appendChild(phonediv);
+//     });
+//   };
+  
+//   document.getElementById("search").addEventListener("click", function () {
+//     let scearchField = document.getElementById("textinput");
+//     let final = scearchField.value;
+  
+//     loadPhones(final)
+//   // scearchField.value=""
+  
+//   });
+  
